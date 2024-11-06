@@ -1,0 +1,79 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nyilfel {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.nyilak {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nyil:hover {
+    background-color: rgb(188, 190, 185);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: greenyellow;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.stop:hover {
+    background-color: rgb(114, 15, 15);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.kijelzo {
+    border: 2px solid black;
+    width: 15rem;
+    margin: auto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.nyil {
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    font-size: xx-large;
+    padding: 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.start {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: x-large;
+    width: 70px;
+    height: fit-content;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.stop {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: x-large;
+    width: 70px;
+    height: fit-content;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
