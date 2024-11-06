@@ -16,6 +16,16 @@ div {
     padding: 10px;
 }
 
+.nyil {
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    font-size: xx-large;
+    padding: 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
 .nyil:hover {
     background-color: rgb(188, 190, 185);
     transition: 200ms;
@@ -42,15 +52,7 @@ div {
     margin-bottom: 20px;
 }
 
-.nyil {
-    margin: 5px;
-    width: 75px;
-    height: 75px;
-    font-size: xx-large;
-    padding: 0px;
-    border: 1px solid grey;
-    border-radius: 5px;
-}
+
 
 .start {
     background-color: green;
